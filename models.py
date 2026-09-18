@@ -1,7 +1,7 @@
 from datetime import datetime
 from flask_login import UserMixin
 
-from app import db
+from factory import db
 
 
 class User(UserMixin, db.Model):
